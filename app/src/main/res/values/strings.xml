@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="logo">logo</string>
+    <string name="img">img</string>
+    <string name="nama_gw">Drin Marsal Albari</string>
+    <string name="email_gw">drin.marsal3381@student.unri.ac.id</string>
+    <string name="poster_film">TODO</string>
+    <string name="film_judul">Poster Film</string>
+    <string name="movie_lover">MOVIE LOVER 🍿</string>
+    <string name="contact">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="backbtn"><![CDATA[<]]></string>
+    <string name="share">share</string>
+    <string name="shareText">share</string>
+    <string name="email_ge">drin.marsal3381@student.unri.ac.id</string>
+    <string name="back">Back</string>
+    <string name="drin">TODO</string>
+</resources>

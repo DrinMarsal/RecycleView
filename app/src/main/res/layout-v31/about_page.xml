@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#292f36"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/drin"
+        android:scaleType="centerCrop"
+        android:outlineProvider="background"
+        android:clipToOutline="true"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drin Marsal Albari"
+        android:textSize="20sp"
+        android:textColor="#faf5f1"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#faf5f1"
+        android:text="drin.marsal3381@student.unri.ac.id"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

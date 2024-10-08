@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faf5f1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#292f36"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="70dp"
+        android:layout_height="64dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:contentDescription="@string/logo"
+        android:focusable="true"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:tint="#faf5f1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#faf5f1"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/poster_image_view"
+                android:layout_width= "250dp"
+                android:layout_height="350dp"
+                android:contentDescription="@string/film_judul" />
+
+            <TextView
+                android:id="@+id/s_description_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                android:textColor="#292f36"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:id="@+id/f_description_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#292f36"
+                android:paddingTop="16dp"/>
+
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/share"
+                android:text="@string/shareText"
+                android:textColor="@color/main"
+                android:backgroundTint="@color/secmain"
+                android:drawableStart="@drawable/baseline_share_24"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
